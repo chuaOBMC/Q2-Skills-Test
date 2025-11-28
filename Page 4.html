@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBMC Enrollment Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+     <style>
+body{
+background-image: url('https://images.squarespace-cdn.com/content/v1/6183edbb7bde042bc98731b6/fc1cc3c2-c2d0-4ae3-b987-28e9eba9508c/Section_Background_Large.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3))
+}
+  .navbar {
+    padding-top: 1.0rem;
+    padding-bottom: 1.0rem;
+  }
+blockquote{
+color: rgb(0, 0, 0);
+
+}
+#logo{
+height: 100px;
+width: 100px;
+}
+#submit{
+color: rgb(226, 56, 0);
+
+}
+
+
+     </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light"
+    style="background-color: rgba(222, 221, 221, 0.331); margin-top: 20px; border-radius: 20px; ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href=""><img src="https://files.orangeapps.ph/disk001/School_Files/1/school-65/school_profile/1724046681-141.png" alt="" class="" id="logo"> </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="Page 2.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Page 3.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Page 4.html">Enroll</a>
+        </li>
+                <li class="nav-item">
+          <a class="nav-link" href="Page 5.html">Contact Us</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<br><br>
+
+<div class="container text-dark"
+     style="border-radius: 20px; 
+     background: rgba(255, 255, 255, 0.607);">
+    <p class="fw-bold display-5">Enroll</p>
+    <br>
+    <blockquote>
+<span class="lead">Student Information</span>
+<br><br>
+Now open for A.Y. 2025–2026!
+At O.B. Montessori Center, we are ready to help you with a smooth admission and enrollment experience for you and your child.
+<br>
+Fill up the form below for our admission requirements to join our community today.
+<br><br>
+<div class="row">
+<div class="col">
+<label for="Full Name" class="form-label">First Name</label>
+<br>
+<input  class="form-control" type="text" name="FirstName" id="FirstName" placeholder="Andre" class="form-control form-control-sm" required>
+</div>
+<div class="col">
+<label for="Last Name" class="form-label">Last Name</label>
+<br>
+<input class="form-control" type="text" name="lastname" id="Email" placeholder="Betilez" class="form-control form-control-sm" required>
+</div>
+    </div>
+<label>Grade Level</label>
+<br>
+<select class="form-select" id="Level" name="Level">
+	<option value="none">Level</option>
+<option value="Grade 7">Grade 7</option>
+<option value="Grade 8">Grade 8</option>
+<option value="Grade 9">Grade 9</option>
+<option value="Grade 10">Grade 10</option>
+<option value="Grade 11">Grade 11</option>
+<option value="Grade 12">Grade 12</option>
+
+</select>
+<br><br>
+<label for="Gender" class="form-label">Gender: </label>
+
+<br>
+<input class="form-check-input" type="radio" id="radio" name="rate" value="Male">
+<label for="rate">Male</label>
+
+<input class="form-check-input" type="radio" id="one" name="rate" value="Female">
+<label for="Female">Female</label>
+<br><br>
+<h2 class="lead">Contact Details</h2>
+
+<div class="row">
+<div class="col">
+<label for="Email Address" class="form-label">Email Address</label>
+<br>
+<input type="text" name="Email" id="Email" placeholder="ILoveOBMC@gmail.com" class="form-control form-control-sm" required>
+</div>
+<div class="col">
+<label for="Contact Number" class="form-label">Contact Number</label>
+<br>
+<input class="form-control" type="text" name="ContactNumber" id="ContactNumber" placeholder="0912 345 9876" class="form-control form-control-sm" required>
+</div>
+    </div>
+    <br>
+    <h2 class="lead">Other Information</h2>
+
+    <label for="Mode of Learning" class="form-label">Mode of Learning</label>
+<br>
+<input class="form-check-input" type="checkbox" id="Online" name="Online" value="Online">
+<label for="Online" class="form-label">Online</label>
+<br>
+
+<input class="form-check-input" type="checkbox" id="F2F" name="F2F" value="F2F">
+<label for="Face-To-Face" class="form-label">Face-To-Face</label>
+<br>
+
+<input class="form-check-input" type="checkbox" id="Checking" name="Checking" value="Checking">
+<label for="info" class="form-label">I confirm that the information provided is true and complete</label>
+
+<br><br>
+
+<input type="Submit" id="submit" name="submit" value="Submit">
+
+<br><br>
+</blockquote>
+</div>
+
+
+
+</body>
+</html>
